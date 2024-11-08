@@ -45,4 +45,24 @@ print(d)
 print(e)
 print(f)
 
+# Division
 
+# Slice de parte
+str_slice = lenguaje[0:3] # incluye el inicio, excluye el final [0,3)
+print(str_slice)
+
+# Elimina parte inicial
+str_slice =  lenguaje[2:] # inicia del 2 hasta el final
+print(str_slice)
+
+# Elimina parte inicial con referencia desde el inicio
+str_slice =  lenguaje[-3] # trae desde el final solo el 3er caracter
+print(str_slice)
+
+# Extracción de caracter
+str_slice =  lenguaje[2] # trae desde el inicio el 3 caracer, iniciando desde el 0
+print(str_slice)
+
+# Elimina parte inicia con referencia desde el final
+str_slice =  lenguaje[-2:] # trae desde el final solo el 3er caracter
+print(str_slice)
